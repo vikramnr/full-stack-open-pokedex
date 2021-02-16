@@ -6,7 +6,7 @@ on:
 
 jobs:
   hellowroldjob:
-    runs-on: ubnutu-18.04
+    runs-on: ubuntu
     steps:
       - name: Say Hello
         run: | 
