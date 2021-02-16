@@ -12,8 +12,8 @@ jobs:
         run: | 
           echo "Hello World!"
       - name: Say date
-        run: echo date
+        run: date
       - name: Show me the path
-        run: echo ls
+        run: ls -a
       
           
