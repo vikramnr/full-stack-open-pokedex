@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-console
 console.log('here.')
 describe('Pokedex', function() {
   it('front page can be opened', function() {
