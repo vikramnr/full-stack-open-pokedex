@@ -42,4 +42,5 @@ jobs:
           heroku_app_name: "fullstack-cicd-app"
           heroku_email: "doyouthinkyouknowha@gmail.com"
           healthcheck: "https://fullstack-cicd-app.herokuapp.com/health"
-          checkstring: "ok"
+          checkstring: "okay"
+          rollbackonhealthcheckfailed: true
