@@ -41,3 +41,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fullstack-cicd-app"
           heroku_email: "doyouthinkyouknowha@gmail.com"
+          healthcheck: "https://fullstack-cicd-app.herokuapp.com/health"
+          checkstring: "ok"
